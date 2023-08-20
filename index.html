@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>DIGIFOX</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div class="main">
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">
+          <img src="./assets/image-550x150.jpg" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3 fs-6">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./page2.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu p-2 rounded-0">
+                <li><a class="dropdown-item pb-2 fs-6" href="#">SEO<i class="ri-arrow-right-s-fill"></i></a>
+                <div class="sub-menu1">
+                  <ul>
+                  <li><a href="#" class="pb-5">Tech SEO</a></li>
+                  <li><a href="#" class="pb-5">On-page SEO</a></li>
+                  <li><a href="#" class="pb-5">Off-page SEO</a></li>
+                  <li><a href="#" class="pb-5">SEO copywriting</a></li>
+                </ul>
+                </div>
+                </li>
+                
+                <li><a class="dropdown-item pb-2 fs-6" href="#">Web Development</a></li>
+                <li><a class="dropdown-item pb-2 fs-6" href="#">Digital Marketing</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#reviews">Testimonals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--HERO-->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/pexels-mikhail-nilov-7662844.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-uppercase fw-semibold  display-1 text-white">Welcome to Digifox</h1>
+              <p>We love to craft digital experiences rather than crap and do more coding and do crazy skills</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/pexels-leeloo-thefirst-7887816.jpg" class="d-block w-100 h-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/vr.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--About-->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title ">
+              <h1 class="display-5 fw-semibold text-black">About Us</h1>
+              <hr class="border-4 opacity-100 mx-auto col-1 my-3" style=" color: rgb(32, 32, 198);">
+              <p>We love to craft digital experiences rather than crap and do more coding and do crazy skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <img src="./assets/about.jpg" alt="">
+          </div>
+          <div class="col-lg-5">
+            <h1 class="about-h1">About Elixir</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum ea repudiandae commodi.</p>
+            <div class="d-flex pt-4 ">
+              <div class="iconbox me-3 ">
+                <i class="ri-global-line"></i>
+              </div>
+              <div>
+                <h5>Globally Recognized</h5>
+                <p class=" mb-4">We work all around the world</p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-3">
+              <div class="iconbox me-3 ">
+                <i class="ri-briefcase-2-fill"></i>
+              </div>
+              <div>
+                <h5>Join us today</h5>
+                <p>Contact us through our mail.</p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-3 ">
+              <div class="iconbox me-3 ">
+                <i class="ri-team-fill"></i>
+              </div>
+              <div>
+                <h5>Hardworking and Professional Team</h5>
+                <p>Our Team is always on the move.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!--SERVICES-->
+    <section id="services" class="section-padding border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h1 class="display-5 fw-semibold text-black">Our Awesome Services</h1>
+              <hr class="border-4 opacity-100 mx-auto col-2 my-3" style=" color: rgb(32, 32, 198);">
+              <p>We love to craft digital experiences rather than crap and do more coding and do crazy skills.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row text-center g-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-edit-box-fill"></i>
+              </div>
+              <h5 class="mt-4">UI/UX Designer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis necessitatibus labore!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-html5-fill"></i>
+              </div>
+              <h5 class="mt-4">Front-end Developer</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis necessitatibus labore!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-device-line"></i>
+              </div>
+              <h5 class="mt-4">DIGITAL MARGETING</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis necessitatibus labore!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4">
+              <div class="iconbox">
+                <i class="ri-bar-chart-grouped-line"></i>
+              </div>
+              <h5 class="mt-4">SEO EXPERT</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis necessitatibus labore!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow pb-5  p-4">
+              <div class="iconbox">
+                <i class="ri-edit-2-fill"></i>
+              </div>
+              <h5 class="mt-4">CONTENT WRITING AND COPY WRITING </h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas reiciendis necessitatibus labore!
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--PORTFOLIO-->
+
+    <!--MEMBERS-->
+    <section id="team" class="padding-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h1 class="display-5 fw-semibold text-black">Team Members</h1>
+              <hr class="border-4 opacity-100 mx-auto col-2 my-3" style=" color: rgb(32, 32, 198);">
+              <p>We love to craft digital experiences rather than crap and do more coding and do crazy skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/person-1.jpg" alt="" srcset="">
+              </div>
+              <div class="team-member-content">
+                <h5 style="color: #a5a5a5; font-size: 30px;">John Doe</h5>
+                <p class="text-white fw-bold">Webflow Artist</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/person-2.jpg" alt="" srcset="">
+              </div>
+              <div class="team-member-content">
+                <h5 style="color: #ffffff; font-size: 30px;">Thomson Ed</h5>
+                <p class="text-white fw-bold">Front End Developert</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-wrapper">
+                <img src="./assets/person-3.jpg" alt="" srcset="">
+              </div>
+              <div class="team-member-content">
+                <h5 style="color: #a5a5a5; font-size: 30px;">John Doe</h5>
+                <p class="text-black fw-bold">SEO</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTATCT-->
+    <section class="section-padding bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h1 class="display-5 fw-semibold text-white">Get in touch</h1>
+              <hr class="border-4 opacity-100 mx-auto col-1 my-3" style=" color: rgb(32, 32, 198);">
+              <p class="text-white">We love to craft digital experiences rather than crap and do more coding and do
+                crazy
+                skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="row justify-content-center g-3">
+          <div class="col-md-5">
+            <label for="inputEmail4" class="form-label">First Name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-5">
+            <label for="inputPassword4" class="form-label">Last Name</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-10">
+            <label for="inputAddress" class="form-label">Enter Email Address</label>
+            <input type="text" class="form-control" id="inputAddress">
+          </div>
+          <div class="col-10">
+            <label for="inputAddress2" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="inputAddress2">
+          </div>
+          <div class="mb-3 col-10">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-3 justify-content-center align-items-center text-center">
+            <button type="submit" class="btn btn-primary" aria-placeholder="message">Sign in</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+  </div>
+  <!--BOOTSTRAP JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
